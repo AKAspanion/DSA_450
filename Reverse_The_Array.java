@@ -15,7 +15,7 @@ public class Reverse_The_Array {
          }
 
          // int x = Integer.parseInt(read.readLine());
-         Get obj = new Get();
+         Reverse_The_Array_Logic obj = new Reverse_The_Array_Logic();
          obj.reverseArray(input, n);
 
          for (int i = 0; i < n; i++)
@@ -26,7 +26,7 @@ public class Reverse_The_Array {
    }
 }
 
-class Get {
+class Reverse_The_Array_Logic {
    public void reverseArray(int arr[], int n) throws IOException {
       int i, t;
       for (i = 0; i < n / 2; i++) {
